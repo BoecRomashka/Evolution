@@ -1,0 +1,65 @@
+.items {
+  margin-top: 50px;
+}
+
+.items__cards,
+.comparison__values {
+  display: flex;
+  justify-content: space-between;
+  & > * {
+    width: 50%;
+  }
+}
+
+.items__cards {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.item__wrap {
+  width: 45%;
+}
+
+.item__header {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  letter-spacing: -0.4px;
+}
+
+.item__price {
+  font-size: 24px;
+  letter-spacing: -0.57px;
+}
+
+.review {
+  margin-top: 60px;
+  background: #ffa200;
+  box-shadow: 0px 22px 50px rgba(196, 196, 196, 0.62);
+  border-radius: 4px;
+}
+
+.review__content {
+  padding: 41px 24px;
+}
+
+.preview__text {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  max-width: 220px;
+  padding: 0;
+}
+
+.review__link {
+  display: block;
+  color: #000;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-image: url("../img/triangle.png");
+  background-position: 40% top;
+  background-repeat: no-repeat;
+  /*padding-left: -100px;  Adjust according to image size to push text across. */
+}

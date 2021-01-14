@@ -1,0 +1,39 @@
+.contaiter-mobile {
+  width: 100%;
+  max-width: 1024px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.dblock {
+  display: block;
+}
+
+.order-btn {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  padding: 12.5px 0;
+  margin-top: 15px;
+  max-width: 150px;
+  border-radius: 5px;
+  color: #fff;
+  transition: opacity 0.2s linear;
+  &:hover {
+    opacity: 0.85;
+  }
+}
+
+.order-btn--purple {
+  background-color: #3023ae;
+}
+.order-btn--blue {
+  background-color: #205fdf;
+}
+.order-btn--red {
+  background-color: #b4172c;
+}
+.order-btn--green {
+  background-color: #017e79;
+}
